@@ -1,1 +1,1 @@
-modrinth.com/speedkeys
+[mod page](https://modrinth.com/mod/speedkeys)
