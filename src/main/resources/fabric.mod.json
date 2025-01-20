@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "speedkey",
+  "version": "${version}",
+  "name": "speedkey",
+  "description": "An embedded library for all of Com's mods",
+  "authors": [],
+  "contact": {},
+  "license": "unlicense",
+  "icon": "assets/speedkey/icon.png",
+  "environment": "*",
+  "entrypoints": {
+	"client": [
+	  "com.femboyairlines.speedkey.client.SpeedkeyClient"
+	],
+	"main": [
+	  "com.femboyairlines.speedkey.Speedkey"
+	]
+  },
+  "mixins": [
+	"speedkey.mixins.json",
+	{
+	  "config": "speedkey.client.mixins.json",
+	  "environment": "client"
+	}
+  ],
+  "depends": {
+	"fabricloader": ">=${loader_version}",
+	"fabric-language-kotlin": ">=${kotlin_loader_version}",
+	"fabric": "*",
+	"minecraft": "${minecraft_version}"
+  }
+}
