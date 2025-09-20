@@ -3,7 +3,7 @@
   "id": "speedkey",
   "version": "${version}",
   "name": "speedkey",
-  "description": "An embedded library for all of Com's mods",
+  "description": "A mod that adds keybinds that give you haste!",
   "authors": [],
   "contact": {},
   "license": "unlicense",
